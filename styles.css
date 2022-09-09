@@ -1,3 +1,36 @@
 body {
-    background-color: rgb(63, 63, 63);
+    /* background-image: linear-gradient(to top, hsl(270, 100%, 25%) 0%, hsl(270, 13%, 61%) 100%); */
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    background-size: contain;
+}
+
+h1, p, h2{
+    text-align: center;
+}
+ul, ol{
+    text-align: center;
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+li a {
+    font-size: 30px;
+    background: turquoise;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border: 2px;
+    border-color: rgb(55, 55, 55);
+    border-style: solid;
+    
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
